@@ -1,0 +1,382 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0/ios-arm64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/ios-arm64": {
+      "ManagedProject/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.ILLink.Tasks": "8.0.0-preview.5.23280.8",
+          "runtimepack.Microsoft.NETCore.App.Runtime.Mono.ios-arm64": "8.0.0-preview.5.23280.8"
+        },
+        "runtime": {
+          "ManagedProject.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.NETCore.App.Runtime.Mono.ios-arm64/8.0.0-preview.5.23280.8": {
+        "runtime": {
+          "System.Console.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
+          }
+        },
+        "native": {
+          "System.Private.CoreLib.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.28008"
+          },
+          "icudt.dat": {
+            "fileVersion": "0.0.0.0"
+          },
+          "icudt_CJK.dat": {
+            "fileVersion": "0.0.0.0"
+          },
+          "icudt_EFIGS.dat": {
+            "fileVersion": "0.0.0.0"
+          },
+          "icudt_no_CJK.dat": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Globalization.Native.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Globalization.Native.dylib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.IO.Compression.Native.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.IO.Compression.Native.dylib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Native.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Native.dylib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Net.Security.Native.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Net.Security.Native.dylib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Security.Cryptography.Native.Apple.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libSystem.Security.Cryptography.Native.Apple.dylib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libicudata.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libicui18n.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libicuuc.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-debugger-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-debugger-stub-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-diagnostics_tracing-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-diagnostics_tracing-stub-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-hot_reload-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-hot_reload-stub-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-marshal-ilgen-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmono-component-marshal-ilgen-stub-static.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmonosgen-2.0.a": {
+            "fileVersion": "0.0.0.0"
+          },
+          "libmonosgen-2.0.dylib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.0-preview.5.23280.8": {}
+    }
+  },
+  "libraries": {
+    "ManagedProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.NETCore.App.Runtime.Mono.ios-arm64/8.0.0-preview.5.23280.8": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NET.ILLink.Tasks/8.0.0-preview.5.23280.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KpuzF2JVOAjenVw58T2hu+OF5qLbnDlcQBb9t+DP6FX6WawJ20if2EnRit8JT0+DAxKuZcJymlkrfv7IF5Dceg==",
+      "path": "microsoft.net.illink.tasks/8.0.0-preview.5.23280.8",
+      "hashPath": "microsoft.net.illink.tasks.8.0.0-preview.5.23280.8.nupkg.sha512"
+    }
+  },
+  "runtimes": {
+    "ios-arm64": [
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.10-arm64": [
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.11-arm64": [
+      "ios.11",
+      "ios.10-arm64",
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.12-arm64": [
+      "ios.12",
+      "ios.11-arm64",
+      "ios.11",
+      "ios.10-arm64",
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.13-arm64": [
+      "ios.13",
+      "ios.12-arm64",
+      "ios.12",
+      "ios.11-arm64",
+      "ios.11",
+      "ios.10-arm64",
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.14-arm64": [
+      "ios.14",
+      "ios.13-arm64",
+      "ios.13",
+      "ios.12-arm64",
+      "ios.12",
+      "ios.11-arm64",
+      "ios.11",
+      "ios.10-arm64",
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "ios.15-arm64": [
+      "ios.15",
+      "ios.14-arm64",
+      "ios.14",
+      "ios.13-arm64",
+      "ios.13",
+      "ios.12-arm64",
+      "ios.12",
+      "ios.11-arm64",
+      "ios.11",
+      "ios.10-arm64",
+      "ios.10",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator-arm64": [
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.10-arm64": [
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.11-arm64": [
+      "iossimulator.11",
+      "iossimulator.10-arm64",
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.12-arm64": [
+      "iossimulator.12",
+      "iossimulator.11-arm64",
+      "iossimulator.11",
+      "iossimulator.10-arm64",
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.13-arm64": [
+      "iossimulator.13",
+      "iossimulator.12-arm64",
+      "iossimulator.12",
+      "iossimulator.11-arm64",
+      "iossimulator.11",
+      "iossimulator.10-arm64",
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.14-arm64": [
+      "iossimulator.14",
+      "iossimulator.13-arm64",
+      "iossimulator.13",
+      "iossimulator.12-arm64",
+      "iossimulator.12",
+      "iossimulator.11-arm64",
+      "iossimulator.11",
+      "iossimulator.10-arm64",
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "iossimulator.15-arm64": [
+      "iossimulator.15",
+      "iossimulator.14-arm64",
+      "iossimulator.14",
+      "iossimulator.13-arm64",
+      "iossimulator.13",
+      "iossimulator.12-arm64",
+      "iossimulator.12",
+      "iossimulator.11-arm64",
+      "iossimulator.11",
+      "iossimulator.10-arm64",
+      "iossimulator.10",
+      "iossimulator-arm64",
+      "iossimulator",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "maccatalyst-arm64": [
+      "maccatalyst",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "maccatalyst.13-arm64": [
+      "maccatalyst.13",
+      "maccatalyst-arm64",
+      "maccatalyst",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "maccatalyst.14-arm64": [
+      "maccatalyst.14",
+      "maccatalyst.13-arm64",
+      "maccatalyst.13",
+      "maccatalyst-arm64",
+      "maccatalyst",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "maccatalyst.15-arm64": [
+      "maccatalyst.15",
+      "maccatalyst.14-arm64",
+      "maccatalyst.14",
+      "maccatalyst.13-arm64",
+      "maccatalyst.13",
+      "maccatalyst-arm64",
+      "maccatalyst",
+      "ios-arm64",
+      "ios",
+      "unix-arm64",
+      "unix",
+      "any",
+      "base"
+    ]
+  }
+}
