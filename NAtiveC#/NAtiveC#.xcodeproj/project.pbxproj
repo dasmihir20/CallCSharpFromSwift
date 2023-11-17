@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D16F55A2AF4090300AD7C26 /* libManagedProject.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA4072A5C1CD300291093 /* libManagedProject.dylib */; };
-		4D16F55B2AF4090300AD7C26 /* libManagedProject.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA4072A5C1CD300291093 /* libManagedProject.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4D16F55C2AF409AE00AD7C26 /* libicudata.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4012A5C1CD300291093 /* libicudata.a */; };
-		4D16F55D2AF409AE00AD7C26 /* libicui18n.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4052A5C1CD300291093 /* libicui18n.a */; };
-		4D16F55E2AF409AE00AD7C26 /* libicuuc.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA3FB2A5C1CD300291093 /* libicuuc.a */; };
-		4D6E6A482AFBCA5400C84409 /* System.Private.CoreLib.aotdata in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D6E6A472AFBCA5400C84409 /* System.Private.CoreLib.aotdata */; };
-		4D6E6A4A2AFBCA8200C84409 /* aot-instances.aotdata in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D6E6A492AFBCA8200C84409 /* aot-instances.aotdata */; };
-		4D6E6A4C2AFBCACF00C84409 /* ManagedProject.aotdata in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D6E6A4B2AFBCACF00C84409 /* ManagedProject.aotdata */; };
-		4D6E6A502AFBCB0800C84409 /* System.Console.aotdata in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D6E6A4D2AFBCB0800C84409 /* System.Console.aotdata */; };
+		4D6E6B212B07BA3200C84409 /* libManagedProject.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E6B202B07BA3200C84409 /* libManagedProject.dylib */; };
+		4D6E6B222B07BA3200C84409 /* libManagedProject.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E6B202B07BA3200C84409 /* libManagedProject.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4DDEA3E32A5C06B400291093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEA3E22A5C06B400291093 /* AppDelegate.m */; };
 		4DDEA3E62A5C06B400291093 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEA3E52A5C06B400291093 /* SceneDelegate.m */; };
 		4DDEA3E92A5C06B400291093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEA3E82A5C06B400291093 /* ViewController.m */; };
@@ -23,84 +16,24 @@
 		4DDEA3EE2A5C06B500291093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEA3ED2A5C06B500291093 /* Assets.xcassets */; };
 		4DDEA3F12A5C06B500291093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEA3EF2A5C06B500291093 /* LaunchScreen.storyboard */; };
 		4DDEA3F42A5C06B500291093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEA3F32A5C06B500291093 /* main.m */; };
-		4DDEA40E2A5C1CD300291093 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA3FB2A5C1CD300291093 /* libicuuc.a */; };
-		4DDEA4112A5C1CD300291093 /* libSystem.Native.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA3FE2A5C1CD300291093 /* libSystem.Native.dylib */; };
-		4DDEA4122A5C1CD300291093 /* libSystem.Globalization.Native.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA3FF2A5C1CD300291093 /* libSystem.Globalization.Native.dylib */; };
-		4DDEA4132A5C1CD300291093 /* libSystem.Net.Security.Native.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA4002A5C1CD300291093 /* libSystem.Net.Security.Native.dylib */; };
-		4DDEA4142A5C1CD300291093 /* libicudata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA4012A5C1CD300291093 /* libicudata.a */; };
-		4DDEA4182A5C1CD300291093 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA4052A5C1CD300291093 /* libicui18n.a */; };
-		4DDEA41C2A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA4092A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib */; };
-		4DDEA41D2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA40A2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib */; };
-		4DDEA4202A5C1CD300291093 /* libmonosgen-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDEA40D2A5C1CD300291093 /* libmonosgen-2.0.dylib */; };
-		4DDEA4212A5C1CDF00291093 /* libmonosgen-2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA40D2A5C1CD300291093 /* libmonosgen-2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4232A5C1CE100291093 /* libSystem.Globalization.Native.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA3FF2A5C1CD300291093 /* libSystem.Globalization.Native.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4252A5C1CE900291093 /* libSystem.IO.Compression.Native.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA4092A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4262A5C1CEB00291093 /* libSystem.Native.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA3FE2A5C1CD300291093 /* libSystem.Native.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4272A5C1CF000291093 /* libSystem.Net.Security.Native.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA4002A5C1CD300291093 /* libSystem.Net.Security.Native.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4282A5C1CF100291093 /* libSystem.Security.Cryptography.Native.Apple.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DDEA40A2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4DDEA4352A5C1D7600291093 /* ManagedProject.dll in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42A2A5C1D7600291093 /* ManagedProject.dll */; };
-		4DDEA4362A5C1D7600291093 /* icudt_no_CJK.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42B2A5C1D7600291093 /* icudt_no_CJK.dat */; };
-		4DDEA4372A5C1D7600291093 /* icudt_CJK.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42C2A5C1D7600291093 /* icudt_CJK.dat */; };
-		4DDEA4382A5C1D7600291093 /* icudt.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42D2A5C1D7600291093 /* icudt.dat */; };
-		4DDEA4392A5C1D7700291093 /* ManagedProject.pdb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42E2A5C1D7600291093 /* ManagedProject.pdb */; };
-		4DDEA43A2A5C1D7700291093 /* ManagedProject.runtimeconfig.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA42F2A5C1D7600291093 /* ManagedProject.runtimeconfig.json */; };
-		4DDEA43B2A5C1D7700291093 /* ManagedProject.deps.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4302A5C1D7600291093 /* ManagedProject.deps.json */; };
-		4DDEA43C2A5C1D7700291093 /* aot-instances.dll in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4312A5C1D7600291093 /* aot-instances.dll */; };
-		4DDEA43E2A5C1D7700291093 /* System.Private.CoreLib.dll in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4332A5C1D7600291093 /* System.Private.CoreLib.dll */; };
-		4DDEA43F2A5C1D7700291093 /* icudt_EFIGS.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDEA4342A5C1D7600291093 /* icudt_EFIGS.dat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DDEA4222A5C1CDF00291093 /* Embed Libraries */ = {
+		4D6E6AF32B078A3E00C84409 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4DDEA4232A5C1CE100291093 /* libSystem.Globalization.Native.dylib in Embed Libraries */,
-				4DDEA4272A5C1CF000291093 /* libSystem.Net.Security.Native.dylib in Embed Libraries */,
-				4DDEA4282A5C1CF100291093 /* libSystem.Security.Cryptography.Native.Apple.dylib in Embed Libraries */,
-				4DDEA4212A5C1CDF00291093 /* libmonosgen-2.0.dylib in Embed Libraries */,
-				4D16F55B2AF4090300AD7C26 /* libManagedProject.dylib in Embed Libraries */,
-				4DDEA4262A5C1CEB00291093 /* libSystem.Native.dylib in Embed Libraries */,
-				4DDEA4252A5C1CE900291093 /* libSystem.IO.Compression.Native.dylib in Embed Libraries */,
+				4D6E6B222B07BA3200C84409 /* libManagedProject.dylib in Embed Frameworks */,
 			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DDEA4292A5C1D2F00291093 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4D6E6A502AFBCB0800C84409 /* System.Console.aotdata in CopyFiles */,
-				4D6E6A4C2AFBCACF00C84409 /* ManagedProject.aotdata in CopyFiles */,
-				4D6E6A4A2AFBCA8200C84409 /* aot-instances.aotdata in CopyFiles */,
-				4D6E6A482AFBCA5400C84409 /* System.Private.CoreLib.aotdata in CopyFiles */,
-				4DDEA4382A5C1D7600291093 /* icudt.dat in CopyFiles */,
-				4D16F55C2AF409AE00AD7C26 /* libicudata.a in CopyFiles */,
-				4D16F55D2AF409AE00AD7C26 /* libicui18n.a in CopyFiles */,
-				4D16F55E2AF409AE00AD7C26 /* libicuuc.a in CopyFiles */,
-				4DDEA4352A5C1D7600291093 /* ManagedProject.dll in CopyFiles */,
-				4DDEA4362A5C1D7600291093 /* icudt_no_CJK.dat in CopyFiles */,
-				4DDEA4372A5C1D7600291093 /* icudt_CJK.dat in CopyFiles */,
-				4DDEA4392A5C1D7700291093 /* ManagedProject.pdb in CopyFiles */,
-				4DDEA43A2A5C1D7700291093 /* ManagedProject.runtimeconfig.json in CopyFiles */,
-				4DDEA43B2A5C1D7700291093 /* ManagedProject.deps.json in CopyFiles */,
-				4DDEA43C2A5C1D7700291093 /* aot-instances.dll in CopyFiles */,
-				4DDEA43E2A5C1D7700291093 /* System.Private.CoreLib.dll in CopyFiles */,
-				4DDEA43F2A5C1D7700291093 /* icudt_EFIGS.dat in CopyFiles */,
-			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D6E6A472AFBCA5400C84409 /* System.Private.CoreLib.aotdata */ = {isa = PBXFileReference; lastKnownFileType = file; name = System.Private.CoreLib.aotdata; path = "NAtiveC#/Lib/System.Private.CoreLib.aotdata"; sourceTree = "<group>"; };
-		4D6E6A492AFBCA8200C84409 /* aot-instances.aotdata */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aot-instances.aotdata"; path = "NAtiveC#/Lib/aot-instances.aotdata"; sourceTree = "<group>"; };
-		4D6E6A4B2AFBCACF00C84409 /* ManagedProject.aotdata */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManagedProject.aotdata; path = "NAtiveC#/Lib/ManagedProject.aotdata"; sourceTree = "<group>"; };
-		4D6E6A4D2AFBCB0800C84409 /* System.Console.aotdata */ = {isa = PBXFileReference; lastKnownFileType = file; name = System.Console.aotdata; path = "NAtiveC#/Lib/System.Console.aotdata"; sourceTree = "<group>"; };
+		4D6E6B202B07BA3200C84409 /* libManagedProject.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libManagedProject.dylib; path = "NAtiveC#/Lib/libManagedProject.dylib"; sourceTree = "<group>"; };
 		4DDEA3DE2A5C06B400291093 /* NAtiveC#.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAtiveC#.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDEA3E12A5C06B400291093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DDEA3E22A5C06B400291093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,35 +46,6 @@
 		4DDEA3F02A5C06B500291093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DDEA3F22A5C06B500291093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDEA3F32A5C06B500291093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4DDEA3FB2A5C1CD300291093 /* libicuuc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicuuc.a; path = "NAtiveC#/Lib/libicuuc.a"; sourceTree = "<group>"; };
-		4DDEA3FC2A5C1CD300291093 /* libmono-component-diagnostics_tracing-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-diagnostics_tracing-static.a"; path = "NAtiveC#/Lib/libmono-component-diagnostics_tracing-static.a"; sourceTree = "<group>"; };
-		4DDEA3FD2A5C1CD300291093 /* libmono-component-hot_reload-stub-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-hot_reload-stub-static.a"; path = "NAtiveC#/Lib/libmono-component-hot_reload-stub-static.a"; sourceTree = "<group>"; };
-		4DDEA3FE2A5C1CD300291093 /* libSystem.Native.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.Native.dylib; path = "NAtiveC#/Lib/libSystem.Native.dylib"; sourceTree = "<group>"; };
-		4DDEA3FF2A5C1CD300291093 /* libSystem.Globalization.Native.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.Globalization.Native.dylib; path = "NAtiveC#/Lib/libSystem.Globalization.Native.dylib"; sourceTree = "<group>"; };
-		4DDEA4002A5C1CD300291093 /* libSystem.Net.Security.Native.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.Net.Security.Native.dylib; path = "NAtiveC#/Lib/libSystem.Net.Security.Native.dylib"; sourceTree = "<group>"; };
-		4DDEA4012A5C1CD300291093 /* libicudata.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicudata.a; path = "NAtiveC#/Lib/libicudata.a"; sourceTree = "<group>"; };
-		4DDEA4022A5C1CD300291093 /* libmono-component-debugger-stub-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-debugger-stub-static.a"; path = "NAtiveC#/Lib/libmono-component-debugger-stub-static.a"; sourceTree = "<group>"; };
-		4DDEA4032A5C1CD300291093 /* libmono-component-marshal-ilgen-stub-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-marshal-ilgen-stub-static.a"; path = "NAtiveC#/Lib/libmono-component-marshal-ilgen-stub-static.a"; sourceTree = "<group>"; };
-		4DDEA4042A5C1CD300291093 /* icudt.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = icudt.dat; path = "NAtiveC#/Lib/icudt.dat"; sourceTree = "<group>"; };
-		4DDEA4052A5C1CD300291093 /* libicui18n.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicui18n.a; path = "NAtiveC#/Lib/libicui18n.a"; sourceTree = "<group>"; };
-		4DDEA4062A5C1CD300291093 /* libmono-component-diagnostics_tracing-stub-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-diagnostics_tracing-stub-static.a"; path = "NAtiveC#/Lib/libmono-component-diagnostics_tracing-stub-static.a"; sourceTree = "<group>"; };
-		4DDEA4072A5C1CD300291093 /* libManagedProject.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libManagedProject.dylib; path = "NAtiveC#/Lib/libManagedProject.dylib"; sourceTree = "<group>"; };
-		4DDEA4082A5C1CD300291093 /* libmono-component-hot_reload-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-hot_reload-static.a"; path = "NAtiveC#/Lib/libmono-component-hot_reload-static.a"; sourceTree = "<group>"; };
-		4DDEA4092A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.IO.Compression.Native.dylib; path = "NAtiveC#/Lib/libSystem.IO.Compression.Native.dylib"; sourceTree = "<group>"; };
-		4DDEA40A2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.Security.Cryptography.Native.Apple.dylib; path = "NAtiveC#/Lib/libSystem.Security.Cryptography.Native.Apple.dylib"; sourceTree = "<group>"; };
-		4DDEA40B2A5C1CD300291093 /* libmono-component-debugger-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-debugger-static.a"; path = "NAtiveC#/Lib/libmono-component-debugger-static.a"; sourceTree = "<group>"; };
-		4DDEA40C2A5C1CD300291093 /* libmono-component-marshal-ilgen-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmono-component-marshal-ilgen-static.a"; path = "NAtiveC#/Lib/libmono-component-marshal-ilgen-static.a"; sourceTree = "<group>"; };
-		4DDEA40D2A5C1CD300291093 /* libmonosgen-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libmonosgen-2.0.dylib"; path = "NAtiveC#/Lib/libmonosgen-2.0.dylib"; sourceTree = "<group>"; };
-		4DDEA42A2A5C1D7600291093 /* ManagedProject.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManagedProject.dll; path = "NAtiveC#/Lib/ManagedProject.dll"; sourceTree = "<group>"; };
-		4DDEA42B2A5C1D7600291093 /* icudt_no_CJK.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = icudt_no_CJK.dat; path = "NAtiveC#/Lib/icudt_no_CJK.dat"; sourceTree = "<group>"; };
-		4DDEA42C2A5C1D7600291093 /* icudt_CJK.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = icudt_CJK.dat; path = "NAtiveC#/Lib/icudt_CJK.dat"; sourceTree = "<group>"; };
-		4DDEA42D2A5C1D7600291093 /* icudt.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = icudt.dat; path = "NAtiveC#/Lib/icudt.dat"; sourceTree = "<group>"; };
-		4DDEA42E2A5C1D7600291093 /* ManagedProject.pdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = ManagedProject.pdb; path = "NAtiveC#/Lib/ManagedProject.pdb"; sourceTree = "<group>"; };
-		4DDEA42F2A5C1D7600291093 /* ManagedProject.runtimeconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ManagedProject.runtimeconfig.json; path = "NAtiveC#/Lib/ManagedProject.runtimeconfig.json"; sourceTree = "<group>"; };
-		4DDEA4302A5C1D7600291093 /* ManagedProject.deps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ManagedProject.deps.json; path = "NAtiveC#/Lib/ManagedProject.deps.json"; sourceTree = "<group>"; };
-		4DDEA4312A5C1D7600291093 /* aot-instances.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aot-instances.dll"; path = "NAtiveC#/Lib/aot-instances.dll"; sourceTree = "<group>"; };
-		4DDEA4332A5C1D7600291093 /* System.Private.CoreLib.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = System.Private.CoreLib.dll; path = "NAtiveC#/Lib/System.Private.CoreLib.dll"; sourceTree = "<group>"; };
-		4DDEA4342A5C1D7600291093 /* icudt_EFIGS.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = icudt_EFIGS.dat; path = "NAtiveC#/Lib/icudt_EFIGS.dat"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,16 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDEA40E2A5C1CD300291093 /* libicuuc.a in Frameworks */,
-				4DDEA4112A5C1CD300291093 /* libSystem.Native.dylib in Frameworks */,
-				4DDEA4122A5C1CD300291093 /* libSystem.Globalization.Native.dylib in Frameworks */,
-				4DDEA4132A5C1CD300291093 /* libSystem.Net.Security.Native.dylib in Frameworks */,
-				4DDEA4142A5C1CD300291093 /* libicudata.a in Frameworks */,
-				4DDEA4182A5C1CD300291093 /* libicui18n.a in Frameworks */,
-				4DDEA41C2A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib in Frameworks */,
-				4DDEA41D2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib in Frameworks */,
-				4D16F55A2AF4090300AD7C26 /* libManagedProject.dylib in Frameworks */,
-				4DDEA4202A5C1CD300291093 /* libmonosgen-2.0.dylib in Frameworks */,
+				4D6E6B212B07BA3200C84409 /* libManagedProject.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,20 +63,6 @@
 		4DDEA3D52A5C06B400291093 = {
 			isa = PBXGroup;
 			children = (
-				4D6E6A4D2AFBCB0800C84409 /* System.Console.aotdata */,
-				4D6E6A4B2AFBCACF00C84409 /* ManagedProject.aotdata */,
-				4D6E6A492AFBCA8200C84409 /* aot-instances.aotdata */,
-				4D6E6A472AFBCA5400C84409 /* System.Private.CoreLib.aotdata */,
-				4DDEA4312A5C1D7600291093 /* aot-instances.dll */,
-				4DDEA42C2A5C1D7600291093 /* icudt_CJK.dat */,
-				4DDEA4342A5C1D7600291093 /* icudt_EFIGS.dat */,
-				4DDEA42B2A5C1D7600291093 /* icudt_no_CJK.dat */,
-				4DDEA42D2A5C1D7600291093 /* icudt.dat */,
-				4DDEA4302A5C1D7600291093 /* ManagedProject.deps.json */,
-				4DDEA42A2A5C1D7600291093 /* ManagedProject.dll */,
-				4DDEA42E2A5C1D7600291093 /* ManagedProject.pdb */,
-				4DDEA42F2A5C1D7600291093 /* ManagedProject.runtimeconfig.json */,
-				4DDEA4332A5C1D7600291093 /* System.Private.CoreLib.dll */,
 				4DDEA3E02A5C06B400291093 /* NAtiveC# */,
 				4DDEA3DF2A5C06B400291093 /* Products */,
 				4DDEA3FA2A5C1CD300291093 /* Frameworks */,
@@ -217,25 +98,7 @@
 		4DDEA3FA2A5C1CD300291093 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DDEA4042A5C1CD300291093 /* icudt.dat */,
-				4DDEA4012A5C1CD300291093 /* libicudata.a */,
-				4DDEA4052A5C1CD300291093 /* libicui18n.a */,
-				4DDEA3FB2A5C1CD300291093 /* libicuuc.a */,
-				4DDEA4072A5C1CD300291093 /* libManagedProject.dylib */,
-				4DDEA40B2A5C1CD300291093 /* libmono-component-debugger-static.a */,
-				4DDEA4022A5C1CD300291093 /* libmono-component-debugger-stub-static.a */,
-				4DDEA3FC2A5C1CD300291093 /* libmono-component-diagnostics_tracing-static.a */,
-				4DDEA4062A5C1CD300291093 /* libmono-component-diagnostics_tracing-stub-static.a */,
-				4DDEA4082A5C1CD300291093 /* libmono-component-hot_reload-static.a */,
-				4DDEA3FD2A5C1CD300291093 /* libmono-component-hot_reload-stub-static.a */,
-				4DDEA40C2A5C1CD300291093 /* libmono-component-marshal-ilgen-static.a */,
-				4DDEA4032A5C1CD300291093 /* libmono-component-marshal-ilgen-stub-static.a */,
-				4DDEA40D2A5C1CD300291093 /* libmonosgen-2.0.dylib */,
-				4DDEA3FF2A5C1CD300291093 /* libSystem.Globalization.Native.dylib */,
-				4DDEA4092A5C1CD300291093 /* libSystem.IO.Compression.Native.dylib */,
-				4DDEA3FE2A5C1CD300291093 /* libSystem.Native.dylib */,
-				4DDEA4002A5C1CD300291093 /* libSystem.Net.Security.Native.dylib */,
-				4DDEA40A2A5C1CD300291093 /* libSystem.Security.Cryptography.Native.Apple.dylib */,
+				4D6E6B202B07BA3200C84409 /* libManagedProject.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,8 +113,7 @@
 				4DDEA3DA2A5C06B400291093 /* Sources */,
 				4DDEA3DB2A5C06B400291093 /* Frameworks */,
 				4DDEA3DC2A5C06B400291093 /* Resources */,
-				4DDEA4222A5C1CDF00291093 /* Embed Libraries */,
-				4DDEA4292A5C1D2F00291093 /* CopyFiles */,
+				4D6E6AF32B078A3E00C84409 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

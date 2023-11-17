@@ -1,0 +1,38 @@
+<linker>
+  <assembly fullname="ManagedProject">
+
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="SayHello" />
+      <method name="InitializeLibrary" />
+      <method name="SumString" />
+      <method name="Add" />
+      <method name="StructReturn" />
+      <method name="UpdateFirstName" />
+      <method name="SetNativeCallback" />
+    </type>
+    
+    <!-- <type fullname="ManagedProject.HiaLibrary">
+      <method name="SumString" />
+    </type>
+
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="Add" />
+    </type>
+
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="StructReturn" />
+    </type>
+    
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="UpdateFirstName" />
+    </type>
+
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="SetNativeCallback" />
+    </type>
+
+    <type fullname="ManagedProject.HiaLibrary">
+      <method name="InitializeLibrary" />
+    </type> -->
+  </assembly>
+</linker>
